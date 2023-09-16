@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General sans";
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px; border-radius: 50%; position: absolute;background-color: #fff;
+    z-index: 99999;
+
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+/* #bounding h1{
+    transform: translateY(100%); */
+
+#bounding .boundingelement{
+    transform: translateY(100%); 
+    
+}
+#hero{
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    margin-left: 30px;
+    opacity: .6;
+    line-height: 1;
+    font-family:"General sans";
+    font-size: 9.5vw;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+#heading #second{
+    margin-left: 230px;
+
+}
+#blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+     /* background-color: greenyellow;  */
+}
+#blocktext h5{
+    text-align: right;
+    font-size: 15px;
+}
+#chotoheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 100px;
+    padding-right: 50px;
+}
+#chotoheading h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: .5vw;
+    font-size: 1vw;
+}
+#herofooter{
+    padding: 0 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 3%;
+}
+#herofooter a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+#herofooter #circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+   background-color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#secondhero{
+    color: #888;
+    padding-right: 10vw;
+    padding-top: 200px;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+}
+.element{
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.element h1{
+    font-size: 8vw;
+}
+.last{
+    border-bottom: 1px solid #888;
+}
+.element img{
+    /* display: none; */
+     opacity: 0; 
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+
+}
+#about{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+
+}
+/* #imageabout{
+    width: 2vw;height: 2vw;border-radius: 50%;
+    background-image: url(cynthia.png);background-size: cover;
+} */
+#about img{
+    width: 15vw;
+
+}
+#textabout{
+    width: 25rem;
+    /* background-color: pink; */
+}
+#textabout h5{
+    color: #888;
+    margin-bottom: 10px;
+}
+#textabout p{
+    margin-bottom:30px;
+    line-height: 1.7;
+
+}
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.last{
+    background-color: black;
+    color: #888;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+.last h5{
+    color: #888;
+
+}
+.last h3{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: black;
+    color: #fff;
+
+}
+.footerleft{
+    display: flex;
+    gap:20px;
+} 
+.footerright{
+    gap: 30px;
+    display: flex;
+}  
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
